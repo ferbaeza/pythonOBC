@@ -13,5 +13,6 @@ class Alumno():
             print('El alumno {} ha suspendido'.format(self.nombre))
 
 alumno = Alumno('Fernando', 7)
+alumno2 = Alumno('Ana', 9).print()
 alumno.print()
 alumno.result()
