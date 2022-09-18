@@ -9,7 +9,7 @@ def seven_two():
     print(f'Son las {hora}:{minutes} h')
 
     if int(hora) >= 19:
-        print(f'Es ya tarde, son las {h}h')
+        print(f'Es ya tarde, son las {hora}h')
     else:
         res_horas = int(hora)-24
         res_minutess = int(minutes)-59
