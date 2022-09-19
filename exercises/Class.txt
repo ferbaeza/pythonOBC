@@ -1,4 +1,4 @@
 Fernando Baeza
 
 Esta es la linea guardada de nuestro Objeto:
-first.<locals>.Vehicle(name='beta', branch='alfa')
+Vehicle(name='beta', branch='alfa')
