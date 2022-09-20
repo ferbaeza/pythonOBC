@@ -13,7 +13,18 @@ def main():
 
     for i in lista:
         if i[1]==name:
-            print(f"Has encontrado al alumno que buscabas {name}")
+            print(f"Has encontrado al alumno que buscabas {name}\n")
+
+
+    query = f"SELECT * FROM alumnos WHERE nombre='{name}'"
+    rows2= cursor.execute(query)
+    data = rows2.fetchone()
+
+    print(f"Los datos de tu busqueda son :\n{data}")
+
+
+
+
     cursor.close()
     conn.close()
 
